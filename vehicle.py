@@ -3,7 +3,7 @@ import plotly_express as px
 import pandas as pd
 
 st.header('Datos de anuncios de venta de coches')
-car_data = pd.read_csv('c:/Users/cary_/OneDrive/Escritorio/Data analyst/Sprint 5/Proyecto5/my_proyect_sprint5/vehicles_us.csv') # leer los datos
+car_data = pd.read_csv('vehicles_us.csv') # leer los datos
 st.write('Selecciona histograma o gráfico de dispersión')
 build_histogram = st.button('Construir un histograma')
 build_scatter = st.button('Construir gráfico de dispersion')
